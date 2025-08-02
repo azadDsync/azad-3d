@@ -9,9 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@react-three/drei": "^10.6.1",
+    "@react-three/fiber": "^9.3.0",
+    "@react-three/postprocessing": "^3.0.4",
+    "@types/three": "^0.178.1",
+    "gsap": "^3.13.0",
+    "jotai": "^2.12.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.5"
+    "next": "15.4.5",
+    "react-responsive": "^10.0.1",
+    "three": "^0.179.0"
   },
   "devDependencies": {
     "typescript": "^5",
