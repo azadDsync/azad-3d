@@ -73,7 +73,6 @@ export default function Scene() {
                 <meshBasicMaterial color={bloomColor} toneMapped={false} ref={textMaterial}>
                     <RenderTexture attach="map">
                         <color attach="background" args={["#fff"]} />
-                        <Environment preset="sunset" />
                         <Float floatIntensity={4} >
                             <Image
                                 ref={imageRef}
@@ -111,7 +110,7 @@ export default function Scene() {
                     metalness={0.5}
                 />
             </mesh>
-            <Environment preset='sunset' />
+            <Environment files='/hdri/sunset.hdr' />
         </>
     )
 }
